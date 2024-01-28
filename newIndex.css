@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+   
+    /* background-color: aqua; */
+    border: 1px solid red;
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    border: 2px solid yellow;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: orange;
+    font-size: larger;
+}
+.btn:active{
+    background-color: red;
+    font-size: large;
+    width: 45%;
+    height: 60px;
+}
